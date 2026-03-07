@@ -1,6 +1,6 @@
-⭐ **Welcome to my GitHub Profile**
+![Banner](./banner.png)
 
-### Hi there, I'm <strong>TheLitis</strong> 👋
+# Hi there, I'm <strong>TheLitis</strong> 👋
 
 Ice in my veins, candy in my teeth  
 Developer • Python • C++ • TypeScript • Rust  
@@ -43,11 +43,22 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/Pranesh-2005/github-readme-stats-fast"><img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&show_icons=true&rank_icon=github&hide_border=true" alt="GitHub Stats"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Pranesh-2005/github-readme-stats-fast"><img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&layout=compact&hide_border=true" alt="Top Languages"/></a>
+</p>
+
+---
+
 ## 📫 Connect with Me
 
-If you’d like to get in touch or chat about projects:
-
-- 📬 [Telegram](https://t.me/your_username_here)
-- 🎮 [Discord](https://discordapp.com/users/your_discord_id_here)
+<p align="center">
+  <a href="https://t.me/your_username_here"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/></a>
+  <a href="https://discordapp.com/users/your_discord_id_here"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/></a>
+</p>
 
 Thanks for stopping by! ✨
