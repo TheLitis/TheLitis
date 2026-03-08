@@ -54,10 +54,10 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ---
 
 ## 🌐 Connect with Me
-<p align="center">
-  [![Telegram Badge](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/@Lindortis) 
-  [![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/the_litis)
-</p>
+
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/@Lindortis) 
+[![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/the_litis)
+
 ---
 
 Thanks for stopping by! ✨ Feel free to check out my projects, give a star ⭐ if you like what you see, and let's build something amazing together.
