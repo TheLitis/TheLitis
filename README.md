@@ -47,16 +47,16 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" width="900"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" width="700"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" width="600"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" width="400"/>
 </p>
 
 ---
 
 ## 🌐 Connect with Me
 
-[![Telegram Badge](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/your_username_here) 
-[![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/your_discord_id)
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/@Lindortis) 
+[![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/the_litis)
 
 ---
 
