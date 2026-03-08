@@ -1,6 +1,8 @@
 # Welcome to my GitHub Profile
 
-<!-- https://github.com/TheLitis/TheLitis/blob/main/Ash_600.gif -->
+<p align="center">
+  <img src="./Ash_600.gif" alt="Ash banner" width="100%" />
+</p>
 
 ## Hi there, I'm **TheLitis** 👋
 
