@@ -1,15 +1,12 @@
 # Welcome to my GitHub Profile
 
-<p align="center">
-  <!-- Video banner playing my highlights -->
-  <video src="./Ash.mp4" alt="Video banner" width="100%" autoplay loop muted playsinline></video>
-</p>
+https://drive.google.com/file/d/1ljEzgC9IkrDeDe6h3qXmu8qDSK-15r0K/view?usp=sharing
 
-## Hi there, I'm <strong>TheLitis</strong> 👋
+## Hi there, I'm **TheLitis** 👋
 
-Ice in my veins, candy in my teeth
-Developer – Python · C++ · TypeScript
-Code with calm, seeking clarity & harmony 🍁
+Ice in my veins, candy in my teeth  
+Developer – Python · C++ · TypeScript  
+Code with calm, seeking clarity & harmony 🍁  
 Quiet confidence, subtle melancholy
 
 ---
@@ -32,16 +29,11 @@ Quiet confidence, subtle melancholy
 
 ## 🔥 Featured Projects
 
-* **AGI** – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.
-  [Repository Link](https://github.com/TheLitis/AGI)
-* **Inter-Knot-Arena-CV** – Toolkit for operating character recognition and document scanning.
-  [Repository Link](https://github.com/Inter-Knot-Arena-CV)
-* **Inter-Knot-Arena-OCR_Scan** – Data platform for optical character recognition and scanning.
-  [Repository Link](https://github.com/Inter-Knot-Arena-OCR_Scan)
-* **Inter-Knot-Arena-VerifierApp** – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
-  [Repository Link](https://github.com/Inter-Knot-Arena-VerifierApp)
-* **Inter-Knot-Arena-WEB** – Web interface for the Inter-Knot-Arena platform.
-  [Repository Link](https://github.com/Inter-Knot-Arena-WEB)
+- [**AGI**](https://github.com/TheLitis/AGI) – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.
+- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena-CV) – Toolkit for operating character recognition and document scanning.
+- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena-OCR_Scan) – Data platform for optical character recognition and scanning.
+- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena-VerifierApp) – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
+- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena-WEB) – Web interface for the Inter-Knot-Arena platform.
 
 You can explore all my repositories from my [main profile](https://github.com/TheLitis).
 
@@ -63,6 +55,7 @@ You can explore all my repositories from my [main profile](https://github.com/Th
   &nbsp;&nbsp;
   <a href="https://discordapp.com/users/the_litis"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
+
 ---
 
 Thanks for stopping by! ✨ Feel free to check out my projects, give a star ⭐ if you like what you see, and let's build something amazing together.
