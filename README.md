@@ -1,6 +1,6 @@
 # Welcome to my GitHub Profile
 
-https://drive.google.com/file/d/1ljEzgC9IkrDeDe6h3qXmu8qDSK-15r0K/view?usp=sharing
+<!-- https://drive.google.com/file/d/1ljEzgC9IkrDeDe6h3qXmu8qDSK-15r0K/view?usp=sharing -->
 
 ## Hi there, I'm **TheLitis** 👋
 
