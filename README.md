@@ -59,14 +59,14 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://t.me/Lindortis" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" width="64"/>
+  <a href="https://t.me/Lindortis">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://discordapp.com/users/the_litis" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" width="64"/>
+  &nbsp;&nbsp;
+  <a href="https://discordapp.com/users/the_litis">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
-</p>
+</p>>
 
 ---
 
