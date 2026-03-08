@@ -7,9 +7,9 @@
 
 ## Hi there, I'm <strong>TheLitis</strong> 👋
 
-Ice in my veins, candy in my teeth  
-Developer – Python · C++ · TypeScript  
-Code with calm, seeking clarity & harmony 🍁  
+Ice in my veins, candy in my teeth
+Developer – Python · C++ · TypeScript
+Code with calm, seeking clarity & harmony 🍁
 Quiet confidence, subtle melancholy
 
 ---
@@ -17,30 +17,30 @@ Quiet confidence, subtle melancholy
 ## 🛠️ Technologies & Tools
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="48"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="48"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="48"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="48"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="54"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="54"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="54"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="54"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="54"/>
 </p>
 
 ---
 
 ## 🔥 Featured Projects
 
-* **AGI** – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.  
+* **AGI** – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.
   [Repository Link](https://github.com/TheLitis/AGI)
-* **Inter-Knot-Arena-CV** – Toolkit for operating character recognition and document scanning.  
+* **Inter-Knot-Arena-CV** – Toolkit for operating character recognition and document scanning.
   [Repository Link](https://github.com/Inter-Knot-Arena-CV)
-* **Inter-Knot-Arena-OCR_Scan** – Data platform for optical character recognition and scanning.  
+* **Inter-Knot-Arena-OCR_Scan** – Data platform for optical character recognition and scanning.
   [Repository Link](https://github.com/Inter-Knot-Arena-OCR_Scan)
-* **Inter-Knot-Arena-VerifierApp** – Application for verifying tasks and processes in the Inter-Knot-Arena platform.  
+* **Inter-Knot-Arena-VerifierApp** – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
   [Repository Link](https://github.com/Inter-Knot-Arena-VerifierApp)
-* **Inter-Knot-Arena-WEB** – Web interface for the Inter-Knot-Arena platform.  
+* **Inter-Knot-Arena-WEB** – Web interface for the Inter-Knot-Arena platform.
   [Repository Link](https://github.com/Inter-Knot-Arena-WEB)
 
 You can explore all my repositories from my [main profile](https://github.com/TheLitis).
@@ -59,12 +59,12 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://t.me/Lindortis">
-    <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
+  <a href="https://t.me/Lindortis" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" width="64"/>
   </a>
-  &nbsp;
-  <a href="https://discordapp.com/users/the_litis">
-    <img src="https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white" alt="Discord"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://discordapp.com/users/the_litis" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" width="64"/>
   </a>
 </p>
 
