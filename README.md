@@ -58,18 +58,11 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 ## 🌐 Connect with Me
 
-## 🌐 Connect with Me
-
 <p align="center">
-  <a href="https://t.me/Lindortis">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
+  <a href="https://t.me/Lindortis"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   &nbsp;&nbsp;
-  <a href="https://discordapp.com/users/the_litis">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
+  <a href="https://discordapp.com/users/the_litis"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
-
 ---
 
 Thanks for stopping by! ✨ Feel free to check out my projects, give a star ⭐ if you like what you see, and let's build something amazing together.
