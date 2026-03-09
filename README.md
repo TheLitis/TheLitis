@@ -53,7 +53,7 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌐 Connect with Me
 
 <p align="center">
-  <img src="./griffith.jpg" alt="Griffith" width="260" />
+  <img src="./griffith.jpg" alt="Griffith" width="500" />
 </p>
 
 <p align="center">
