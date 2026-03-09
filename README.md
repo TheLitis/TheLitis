@@ -53,7 +53,7 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌐 Connect with Me
 
 <p align="center">
-  <img src="https://abrakadabra.fun/uploads/posts/2022-01/1643425866_8-abrakadabra-fun-p-griffit-iz-berserka-16.jpg" alt="Griffith" width="500" />
+  <img src="https://abrakadabra.fun/uploads/posts/2022-01/1643425866_8-abrakadabra-fun-p-griffit-iz-berserka-16.jpg" alt="Griffith" width="100%" />
 </p>
 
 <p align="center">
