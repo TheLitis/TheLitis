@@ -53,6 +53,10 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌐 Connect with Me
 
 <p align="center">
+  <img src="./griffith.jpg" alt="Griffith" width="260" />
+</p>
+
+<p align="center">
   <a href="https://t.me/Lindortis"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   &nbsp;&nbsp;
   <a href="https://discordapp.com/users/the_litis"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
