@@ -41,11 +41,77 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 ---
 
-## 📊 GitHub Stats
+## 📈 Development Pulse
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" width="600"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" width="400"/>
+  <img
+    src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&custom_title=TheLitis%20%E2%80%94%20Development%20Pulse&show=reviews,prs_merged,prs_merged_percentage"
+    alt="Development Pulse"
+    width="62%"
+  />
+  <img
+    src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=tokyonight&layout=donut&langs_count=8&hide_border=true&custom_title=Core%20Languages"
+    alt="Core Languages"
+    width="33%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"
+    alt="Contribution Activity"
+    width="95%"
+  />
+</p>
+
+---
+
+## 🏢 Organization Work
+
+<p align="center">
+  <a href="https://github.com/Inter-Knot-Arena-CV">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/pin/?username=TheLitis&repo=AGI&theme=tokyonight&hide_border=true"
+      alt="AGI"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Inter-Knot-Arena-CV">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Inter-Knot-Arena-CV&repo=Inter-Knot-Arena-CV&theme=tokyonight&hide_border=true"
+      alt="Inter-Knot-Arena-CV"
+    />
+  </a>
+  <a href="https://github.com/Inter-Knot-Arena-OCR_Scan">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Inter-Knot-Arena-OCR_Scan&repo=Inter-Knot-Arena-OCR_Scan&theme=tokyonight&hide_border=true"
+      alt="Inter-Knot-Arena-OCR_Scan"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Inter-Knot-Arena-VerifierApp">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Inter-Knot-Arena-VerifierApp&repo=Inter-Knot-Arena-VerifierApp&theme=tokyonight&hide_border=true"
+      alt="Inter-Knot-Arena-VerifierApp"
+    />
+  </a>
+  <a href="https://github.com/Inter-Knot-Arena-WEB">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Inter-Knot-Arena-WEB&repo=Inter-Knot-Arena-WEB&theme=tokyonight&hide_border=true"
+      alt="Inter-Knot-Arena-WEB"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <i>
+    A part of my work lives inside organization repositories, products, and internal platform tooling —
+    not only in personal repos.
+  </i>
 </p>
 
 ---
