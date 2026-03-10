@@ -41,19 +41,44 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 ---
 
-## 🌌 Signal & Presence
+## 🌌 Activity & Presence
 
 <p align="center">
-  <img src="./metrics.overview.svg" alt="GitHub overview metrics" width="100%" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow"
+    alt="Contribution activity graph"
+    width="100%"
+  />
 </p>
 
 <p align="center">
-  <img src="./metrics.notable.svg" alt="Notable organization contributions" width="49%" />
-  <img src="./metrics.repositories.svg" alt="Featured and affiliated repositories" width="49%" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=TheLitis&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
+    alt="GitHub stats"
+    width="49%"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=TheLitis&theme=tokyonight-duo&hide_border=true"
+    alt="GitHub streak"
+    width="49%"
+  />
 </p>
 
 <p align="center">
-  <sub>Includes activity, habits, notable organization contributions, and affiliated repositories.</sub>
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=Inter-Knot-Arena&repo=Inter-Knot-Arena-WEB&theme=tokyonight&hide_border=true&show_owner=true"
+      alt="Inter-Knot-Arena-WEB"
+      width="49%"
+    />
+  </a>
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=Inter-Knot-Arena&repo=Inter-Knot-Arena-CV&theme=tokyonight&hide_border=true&show_owner=true"
+      alt="Inter-Knot-Arena-CV"
+      width="49%"
+    />
+  </a>
 </p>
 
 ---
