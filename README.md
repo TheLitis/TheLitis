@@ -45,7 +45,7 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow&height=260&days=31"
     alt="Contribution activity graph"
     width="100%"
   />
@@ -53,41 +53,28 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 <p align="center">
   <img
-    src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&show=reviews,prs_merged,prs_merged_percentage"
+    src="https://github-readme-stats.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&hide=stars,issues,contribs&show=reviews,prs_merged,prs_merged_percentage"
     alt="GitHub stats"
-    width="48.8%"
+    width="100%"
   />
+</p>
+
+<p align="center">
   <img
     src="https://streak-stats.demolab.com?user=TheLitis&theme=tokyonight-duo&hide_border=true"
     alt="GitHub streak"
-    width="48.8%"
+    width="100%"
   />
 </p>
 
 <p align="center">
   <sub>
-    Personal experiments, platform engineering, and OCR workflows — across my own repositories and Inter-Knot-Arena.
+    Active across personal research and Inter-Knot-Arena engineering:
+    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">WEB</a> ·
+    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">CV</a> ·
+    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">OCR_Scan</a> ·
+    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">VerifierApp</a>
   </sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">
-    <img src="https://img.shields.io/badge/Inter--Knot--Arena-WEB-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Inter-Knot-Arena-WEB" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
-    <img src="https://img.shields.io/badge/Inter--Knot--Arena-CV-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Inter-Knot-Arena-CV" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">
-    <img src="https://img.shields.io/badge/Inter--Knot--Arena-OCR__Scan-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Inter-Knot-Arena-OCR_Scan" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">
-    <img src="https://img.shields.io/badge/Inter--Knot--Arena-VerifierApp-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Inter-Knot-Arena-VerifierApp" />
-  </a>
 </p>
 
 ---
