@@ -45,16 +45,8 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow&height=260&days=31"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow"
     alt="Contribution activity graph"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&hide=stars,issues,contribs&show=reviews,prs_merged,prs_merged_percentage"
-    alt="GitHub stats"
     width="100%"
   />
 </p>
@@ -68,13 +60,35 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 </p>
 
 <p align="center">
+  <img
+    src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&show=reviews,prs_merged,prs_merged_percentage"
+    alt="GitHub stats"
+    width="100%"
+  />
+</p>
+
+<p align="center">
   <sub>
-    Active across personal research and Inter-Knot-Arena engineering:
-    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">WEB</a> ·
-    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">CV</a> ·
-    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">OCR_Scan</a> ·
-    <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">VerifierApp</a>
+    Personal experiments, platform engineering, and OCR workflows — across my own repositories and Inter-Knot-Arena.
   </sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">
+    <img src="https://img.shields.io/badge/IKA-WEB-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA WEB" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
+    <img src="https://img.shields.io/badge/IKA-CV-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA CV" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">
+    <img src="https://img.shields.io/badge/IKA-OCR__SCAN-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA OCR SCAN" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">
+    <img src="https://img.shields.io/badge/IKA-VERIFIERAPP-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA VERIFIERAPP" />
+  </a>
 </p>
 
 ---
