@@ -32,10 +32,10 @@ Quiet confidence, subtle melancholy
 ## 🔥 Featured Projects
 
 - [**AGI**](https://github.com/TheLitis/AGI) – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.
-- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena-CV) – Toolkit for operating character recognition and document scanning.
-- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena-OCR_Scan) – Data platform for optical character recognition and scanning.
-- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena-VerifierApp) – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
-- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena-WEB) – Web interface for the Inter-Knot-Arena platform.
+- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV) – Toolkit for operating character recognition and document scanning.
+- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan) – Data platform for optical character recognition and scanning.
+- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp) – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
+- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB) – Web interface for the Inter-Knot-Arena platform.
 
 You can explore all my repositories from my [main profile](https://github.com/TheLitis).
 
