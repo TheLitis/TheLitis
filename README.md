@@ -53,14 +53,14 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=TheLitis&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&show=prs_merged,prs_merged_percentage,reviews"
+    src="https://github-readme-stats.vercel.app/api?username=TheLitis&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&show=reviews,prs_merged,prs_merged_percentage"
     alt="GitHub stats"
-    width="49%"
+    width="49.2%"
   />
   <img
     src="https://streak-stats.demolab.com?user=TheLitis&theme=tokyonight-duo&hide_border=true"
     alt="GitHub streak"
-    width="49%"
+    width="49.2%"
   />
 </p>
 
@@ -69,17 +69,35 @@ You can explore all my repositories from my [main profile](https://github.com/Th
     <img
       src="https://github-readme-stats.vercel.app/api/pin/?username=Inter-Knot-Arena&repo=Inter-Knot-Arena-WEB&theme=tokyonight&hide_border=true&show_owner=true"
       alt="Inter-Knot-Arena-WEB"
-      width="49%"
+      width="49.2%"
     />
   </a>
   <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
     <img
       src="https://github-readme-stats.vercel.app/api/pin/?username=Inter-Knot-Arena&repo=Inter-Knot-Arena-CV&theme=tokyonight&hide_border=true&show_owner=true"
       alt="Inter-Knot-Arena-CV"
-      width="49%"
+      width="49.2%"
     />
   </a>
 </p>
+
+<p align="center">
+  <sub>
+    Personal experiments, platform engineering, and OCR workflows — across my own repositories and Inter-Knot-Arena.
+  </sub>
+</p>
+
+<details>
+  <summary><sub>More signal</sub></summary>
+  <br/>
+  <p align="center">
+    <img src="./metrics.overview.svg" alt="Detailed GitHub metrics" width="100%" />
+  </p>
+  <p align="center">
+    <img src="./metrics.notable.svg" alt="Notable organization contributions" width="49.2%" />
+    <img src="./metrics.repositories.svg" alt="Featured and affiliated repositories" width="49.2%" />
+  </p>
+</details>
 
 ---
 
