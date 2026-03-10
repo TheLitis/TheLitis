@@ -44,12 +44,12 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 ## 🌌 Signal & Presence
 
 <p align="center">
-  <img src="/metrics.overview.svg" alt="GitHub overview metrics" width="100%" />
+  <img src="./metrics.overview.svg" alt="GitHub overview metrics" width="100%" />
 </p>
 
 <p align="center">
-  <img src="/metrics.notable.svg" alt="Notable organization contributions" width="49%" />
-  <img src="/metrics.repositories.svg" alt="Featured and affiliated repositories" width="49%" />
+  <img src="./metrics.notable.svg" alt="Notable organization contributions" width="49%" />
+  <img src="./metrics.repositories.svg" alt="Featured and affiliated repositories" width="49%" />
 </p>
 
 <p align="center">
