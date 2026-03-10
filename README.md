@@ -7,7 +7,7 @@
 ## Hi there, I'm **TheLitis** 👋
 
 Ice in my veins, candy in my teeth  
-Developer – Python · C++ · TypeScript  
+Developer — Python · C++ · TypeScript  
 Code with calm, seeking clarity & harmony 🍁  
 Quiet confidence, subtle melancholy
 
@@ -31,21 +31,29 @@ Quiet confidence, subtle melancholy
 
 ## 🔥 Featured Projects
 
-- [**AGI**](https://github.com/TheLitis/AGI) – Experiments exploring the possibilities of artificial general intelligence and agentic frameworks.
-- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV) – Toolkit for operating character recognition and document scanning.
-- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan) – Data platform for optical character recognition and scanning.
-- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp) – Application for verifying tasks and processes in the Inter-Knot-Arena platform.
-- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB) – Web interface for the Inter-Knot-Arena platform.
+- [**AGI**](https://github.com/TheLitis/AGI) — Experiments exploring AGI ideas, agentic systems, and research directions.
+- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV) — OCR and document-processing toolkit for the platform.
+- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan) — Data platform for optical character recognition and scanning workflows.
+- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp) — Verification app for platform processes and task flows.
+- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB) — Web interface for the Inter-Knot-Arena platform.
 
 You can explore all my repositories from my [main profile](https://github.com/TheLitis).
 
 ---
 
-## 📊 GitHub Stats
+## 🌌 Signal & Presence
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" width="600"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" width="400"/>
+  <img src="/metrics.overview.svg" alt="GitHub overview metrics" width="100%" />
+</p>
+
+<p align="center">
+  <img src="/metrics.notable.svg" alt="Notable organization contributions" width="49%" />
+  <img src="/metrics.repositories.svg" alt="Featured and affiliated repositories" width="49%" />
+</p>
+
+<p align="center">
+  <sub>Includes activity, habits, notable organization contributions, and affiliated repositories.</sub>
 </p>
 
 ---
@@ -64,4 +72,5 @@ You can explore all my repositories from my [main profile](https://github.com/Th
 
 ---
 
-Thanks for stopping by! ✨ Feel free to check out my projects, give a star ⭐ if you like what you see, and let's build something amazing together.
+Thanks for stopping by! ✨  
+Feel free to explore my work, leave a star ⭐ if something resonates, and build something beautiful with me.
