@@ -6,7 +6,6 @@
 
 ## Hi there, I'm **TheLitis** 👋
 
-Ice in my veins, candy in my teeth  
 Developer — Python · C++ · TypeScript  
 Code with calm, seeking clarity & harmony 🍁  
 Quiet confidence, subtle melancholy
