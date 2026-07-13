@@ -1,110 +1,94 @@
-# Welcome to my GitHub Profile
+<div align="center">
 
-<p align="center">
-  <img src="./Ash_600.gif" alt="Ash banner" width="100%" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1200&color=8B949E&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+TheLitis;ML+Research+%C2%B7+AI+Systems+%C2%B7+Backend;Code+with+calm%2C+seeking+clarity+%26+harmony" alt="Typing intro" />
 
-## Hi there, I'm **TheLitis** 👋
+<br/>
 
-Developer — Python · C++ · TypeScript  
-Code with calm, seeking clarity & harmony 🍁  
-Quiet confidence, subtle melancholy
+Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Rust
 
----
+<sub>Quiet confidence, subtle melancholy.</sub>
 
-## 🛠️ Technologies & Tools
+</div>
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="54"/>
-</p>
+<br/>
 
----
+## Featured Work
 
-## 🔥 Featured Projects
+### Kairos — AI Futures Trader
 
-- [**AGI**](https://github.com/TheLitis/AGI) — Experiments exploring AGI ideas, agentic systems, and research directions.
-- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV) — OCR and document-processing toolkit for the platform.
-- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan) — Data platform for optical character recognition and scanning workflows.
-- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp) — Verification app for platform processes and task flows.
-- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB) — Web interface for the Inter-Knot-Arena platform.
+> Autonomous multi-layer trading system I architect and lead at [**Kairos-cryptoAI**](https://github.com/Kairos-cryptoAI). Deterministic layers where determinism matters, LLM reasoning where it pays off.
 
-You can explore all my repositories from my [main profile](https://github.com/TheLitis).
+| Layer | Repository | What it does |
+|:---|:---|:---|
+| — | [kairos](https://github.com/Kairos-cryptoAI/kairos) | Umbrella repo — architecture, layer specs, ADRs |
+| 1A | [kairos-quant-scouts](https://github.com/Kairos-cryptoAI/kairos-quant-scouts) | Pure-math market data collectors — order book, funding, OI, liquidations |
+| 1B | [kairos-text-scouts](https://github.com/Kairos-cryptoAI/kairos-text-scouts) | News/RSS & X monitoring with local ML pre-filter + LLM sentiment |
+| 2 | [kairos-router](https://github.com/Kairos-cryptoAI/kairos-router) | Deterministic FSM with hysteresis — picks analysis effort, no LLM |
+| 3 | [kairos-aggregator](https://github.com/Kairos-cryptoAI/kairos-aggregator) | Fuses quant + sentiment into tactical commands via GPT |
+| 4 | [kairos-macro-strategist](https://github.com/Kairos-cryptoAI/kairos-macro-strategist) | Strategic capital allocation, shock-triggered reasoning |
+| 5 | [kairos-risk-manager](https://github.com/Kairos-cryptoAI/kairos-risk-manager) | Circuit breaker — leverage/drawdown limits, deterministic validation |
+| 6 | [kairos-execution-engine](https://github.com/Kairos-cryptoAI/kairos-execution-engine) | Async atomic order execution, EVEDEX & CCXT, trailing-stop protection |
 
----
+<sub>Plus: [kairos-core](https://github.com/Kairos-cryptoAI/kairos-core) · [kairos-llm](https://github.com/Kairos-cryptoAI/kairos-llm) · [kairos-persistence](https://github.com/Kairos-cryptoAI/kairos-persistence) · [kairos-deploy](https://github.com/Kairos-cryptoAI/kairos-deploy)</sub>
 
-## 🌌 Activity & Presence
+<br/>
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow"
-    alt="Contribution activity graph"
-    width="100%"
-  />
-</p>
+### PIMSR — Physics-Informed Subsurface Reconstruction
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=TheLitis&theme=tokyonight-duo&hide_border=true"
-    alt="GitHub streak"
-    width="100%"
-  />
-</p>
+> Neural inversion for geophysics. Benchmarked against production MT codes (Occam2DMT, ModEM) on real USArray data — **wins all 5 profiles**.
 
-<p align="center">
-  <img
-    src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&show=reviews,prs_merged,prs_merged_percentage"
-    alt="GitHub stats"
-    width="100%"
-  />
-</p>
+| Repository | What it does |
+|:---|:---|
+| [pimsr-inversion](https://github.com/TheLitis/pimsr-inversion) | Physics-informed neural inversion — multi-task property prediction with uncertainty |
+| [pimsr-benchmarks](https://github.com/TheLitis/pimsr-benchmarks) | Benchmarks vs Occam2DMT & ModEM on real USArray data |
+| [pimsr-forward](https://github.com/TheLitis/pimsr-forward) | MT + gravity forward modeling, sensor/noise simulation, dataset builder |
+| [pimsr-geogen](https://github.com/TheLitis/pimsr-geogen) | Stochastic geology model generator |
 
-<p align="center">
-  <sub>
-    Personal experiments, platform engineering, and OCR workflows — across my own repositories and Inter-Knot-Arena.
-  </sub>
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">
-    <img src="https://img.shields.io/badge/IKA-WEB-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA WEB" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
-    <img src="https://img.shields.io/badge/IKA-CV-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA CV" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">
-    <img src="https://img.shields.io/badge/IKA-OCR__SCAN-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA OCR SCAN" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">
-    <img src="https://img.shields.io/badge/IKA-VERIFIERAPP-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA VERIFIERAPP" />
-  </a>
-</p>
+## Stack
 
----
+<div align="center">
 
-## 🌐 Connect with Me
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=8B949E)
+![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=8B949E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=8B949E)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=8B949E)
+![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=8B949E)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=8B949E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=8B949E)
+![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=8B949E)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=8B949E)
 
-<p align="center">
-  <img src="https://abrakadabra.fun/uploads/posts/2022-01/1643425866_8-abrakadabra-fun-p-griffit-iz-berserka-16.jpg" alt="Griffith" width="100%" />
-</p>
+</div>
 
-<p align="center">
-  <a href="https://t.me/Lindortis"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  &nbsp;&nbsp;
-  <a href="https://discordapp.com/users/the_litis"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-</p>
+<br/>
 
----
+## Activity
 
-Thanks for stopping by! ✨  
-Feel free to explore my work, leave a star ⭐ if something resonates, and build something beautiful with me.
+<div align="center">
+
+<img src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=github_dark&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=8B949E&icon_color=8B949E&text_color=c9d1d9" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TheLitis&theme=github_dark&layout=compact&hide_border=true&bg_color=0d1117&title_color=8B949E&text_color=c9d1d9&hide=lua,jupyter%20notebook" alt="Top languages" height="165" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&bg_color=0d1117&color=8B949E&line=58a6ff&point=c9d1d9&hide_border=true&area=true&custom_title=Contribution%20Flow" alt="Contribution graph" width="100%" />
+
+</div>
+
+<br/>
+
+## Contact
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-0d1117?style=for-the-badge&logo=telegram&logoColor=58a6ff)](https://t.me/Lindortis)
+&nbsp;
+[![Discord](https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=58a6ff)](https://discordapp.com/users/the_litis)
+
+<br/>
+
+<sub>Thanks for stopping by — leave a ⭐ if something resonates.</sub>
+
+</div>
