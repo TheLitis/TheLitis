@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="" width="100%" />
+<img src="assets/header.png" alt="" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&lines=TheLitis;ML+Research+%C2%B7+AI+Systems+%C2%B7+Backend;Building+Kairos+%26+PIMSR" alt="Typing intro" />
 
