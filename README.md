@@ -1,110 +1,68 @@
-# Welcome to my GitHub Profile
-
-<p align="center">
-  <img src="./Ash_600.gif" alt="Ash banner" width="100%" />
-</p>
-
-## Hi there, I'm **TheLitis** 👋
-
-Developer — Python · C++ · TypeScript  
-Code with calm, seeking clarity & harmony 🍁  
-Quiet confidence, subtle melancholy
+Physics-informed machine learning for geophysical inverse problems.
+Python, C++, Rust, TypeScript.
 
 ---
 
-## 🛠️ Technologies & Tools
+### PIMSR — physics-informed subsurface reconstruction
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="54"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="54"/>
-</p>
+Neural inversion of magnetotelluric and gravity data, trained on simulated
+geology and evaluated against the two most-used production MT inversion codes
+on 27 real USArray/EMTF stations in the Yellowstone region
+(42.5–45.5°N, 108.5–113°W).
 
----
+Shift-invariant 2D-forward data misfit (`section_nrms_2d`, lower is better):
 
-## 🔥 Featured Projects
+| Profile | ModEM NLCG | Occam2DMT v3.0 | PIMSR U-Net |
+| --- | --- | --- | --- |
+| G | 5.32 | 3.92 | **3.59** |
+| H-YS | 5.90 | 4.68 | **4.10** |
+| I | 10.98 | 9.26 | **5.62** |
+| J | 6.28 | 6.40 | **3.49** |
+| K | 6.99 | 6.03 | **4.69** |
+| mean | 7.09 | 6.06 | **4.30** |
 
-- [**AGI**](https://github.com/TheLitis/AGI) — Experiments exploring AGI ideas, agentic systems, and research directions.
-- [**Inter-Knot-Arena-CV**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV) — OCR and document-processing toolkit for the platform.
-- [**Inter-Knot-Arena-OCR_Scan**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan) — Data platform for optical character recognition and scanning workflows.
-- [**Inter-Knot-Arena-VerifierApp**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp) — Verification app for platform processes and task flows.
-- [**Inter-Knot-Arena-WEB**](https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB) — Web interface for the Inter-Knot-Arena platform.
+The neural model wins on every profile against both baselines while using
+roughly four orders of magnitude less compute — milliseconds per profile
+against 5–210 seconds. Both baselines were compiled from official sources and
+driven by scripts inside the benchmark repository, so the comparison is
+reproducible end to end. Methodology changes and negative results are recorded
+in the report, including a misfit metric that was retired once it was shown to
+be an artifact.
 
-You can explore all my repositories from my [main profile](https://github.com/TheLitis).
-
----
-
-## 🌌 Activity & Presence
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=TheLitis&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow"
-    alt="Contribution activity graph"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=TheLitis&theme=tokyonight-duo&hide_border=true"
-    alt="GitHub streak"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats-fast.vercel.app/api?username=TheLitis&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&show=reviews,prs_merged,prs_merged_percentage"
-    alt="GitHub stats"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <sub>
-    Personal experiments, platform engineering, and OCR workflows — across my own repositories and Inter-Knot-Arena.
-  </sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-WEB">
-    <img src="https://img.shields.io/badge/IKA-WEB-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA WEB" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-CV">
-    <img src="https://img.shields.io/badge/IKA-CV-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA CV" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-OCR_Scan">
-    <img src="https://img.shields.io/badge/IKA-OCR__SCAN-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA OCR SCAN" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Inter-Knot-Arena/Inter-Knot-Arena-VerifierApp">
-    <img src="https://img.shields.io/badge/IKA-VERIFIERAPP-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="IKA VERIFIERAPP" />
-  </a>
-</p>
+| Repository | Role |
+| --- | --- |
+| [pimsr-geogen](https://github.com/TheLitis/pimsr-geogen) | stochastic geology model generator |
+| [pimsr-forward](https://github.com/TheLitis/pimsr-forward) | MT and gravity forward modeling, sensor and noise simulation, dataset builder |
+| [pimsr-inversion](https://github.com/TheLitis/pimsr-inversion) | multi-task neural inversion with uncertainty estimates |
+| [pimsr-benchmarks](https://github.com/TheLitis/pimsr-benchmarks) | comparison against Occam2DMT, ModEM and SimPEG, plus the full result report |
 
 ---
 
-## 🌐 Connect with Me
+### structured-latent-hypothesis
 
-<p align="center">
-  <img src="https://abrakadabra.fun/uploads/posts/2022-01/1643425866_8-abrakadabra-fun-p-griffit-iz-berserka-16.jpg" alt="Griffith" width="100%" />
-</p>
+Kept as a record of a hypothesis that did not survive testing. It started from a
+three-point geometric observation and asked whether the resulting
+mixed-difference structure could serve as a machine learning principle. The
+global claim is closed as unsupported: strict affine spacing did not hold, the
+latent prior did not generalise, and commutator routing lost to simpler
+support-validation baselines. The work has since narrowed to support-calibrated
+adaptive routing under context shift.
 
-<p align="center">
-  <a href="https://t.me/Lindortis"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  &nbsp;&nbsp;
-  <a href="https://discordapp.com/users/the_litis"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-</p>
+[structured-latent-hypothesis](https://github.com/TheLitis/structured-latent-hypothesis)
 
 ---
 
-Thanks for stopping by! ✨  
-Feel free to explore my work, leave a star ⭐ if something resonates, and build something beautiful with me.
+### Other work
+
+- [ProtoSwitch](https://github.com/TheLitis/ProtoSwitch) — terminal-first proxy
+  watcher and rotator for Telegram Desktop, written in Rust
+- [asm-atoi-exit-code](https://github.com/TheLitis/asm-atoi-exit-code) — x86-64
+  Linux assembly, written while learning the instruction set directly
+- Kairos — private research on historical backtesting and counterfactual
+  experiment matrices for trading strategies
+
+---
+
+### Contact
+
+[Telegram](https://t.me/Lindortis) · [Discord](https://discordapp.com/users/the_litis)
