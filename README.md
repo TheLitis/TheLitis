@@ -19,6 +19,7 @@ LLM systems constrained by deterministic guarantees
 *Neural inversion of magnetotelluric and gravity data, evaluated against the two
 most-used production MT inversion codes on real USArray stations.*
 
+> [!IMPORTANT]
 > Wins **all five** Yellowstone profiles against both ModEM NLCG and
 > Occam2DMT v3.0, at roughly **four orders of magnitude** less compute —
 > milliseconds per profile against 5–210 seconds.
@@ -78,6 +79,7 @@ I lead across thirteen repositories in the
 The design question is how much authority a language model can be given in a
 system where mistakes are irreversible.
 
+> [!IMPORTANT]
 > The answer is enforced structurally rather than by prompt: **the model never
 > touches the exchange and never sees a raw number stream.** It receives compact
 > pre-validated JSON, every critical action passes deterministic risk filters,
