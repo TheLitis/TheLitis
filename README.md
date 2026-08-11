@@ -92,6 +92,9 @@ adaptive routing under context shift.
 
 ### Other work
 
+- [Training-Dashboard-Demo](https://github.com/TheLitis/Training-Dashboard-Demo)
+  — reproducible CIFAR-10 pipeline, config to report, with a baseline/improved
+  ablation
 - [ProtoSwitch](https://github.com/TheLitis/ProtoSwitch) — terminal-first proxy
   watcher and rotator for Telegram Desktop, written in Rust
 - [asm-atoi-exit-code](https://github.com/TheLitis/asm-atoi-exit-code) — x86-64
