@@ -1,4 +1,5 @@
-Physics-informed machine learning for geophysical inverse problems.
+Physics-informed machine learning for geophysical inverse problems,
+and LLM systems constrained by deterministic guarantees.
 Python, C++, Rust, TypeScript.
 
 ---
@@ -38,6 +39,43 @@ be an artifact.
 
 ---
 
+### Kairos — LLM-directed trading under deterministic guards
+
+Architecture, specification and implementation of a seven-layer system I lead
+across thirteen repositories in the
+[Kairos-cryptoAI](https://github.com/Kairos-cryptoAI) organisation. The design
+question is how much authority a language model can be given in a system where
+mistakes are irreversible.
+
+The answer is enforced structurally rather than by prompt: **the model never
+touches the exchange and never sees a raw number stream.** It receives compact
+pre-validated JSON, every critical action passes deterministic risk filters,
+and a separate engine executes. On failure the system degrades into a local
+protective mode instead of stopping.
+
+| Layer | Component | Reasoning |
+| --- | --- | --- |
+| 1A | [quant-scouts](https://github.com/Kairos-cryptoAI/kairos-quant-scouts) — order book, funding, OI, RSI/MACD → `MarketSnapshot` | pure math |
+| 1B | [text-scouts](https://github.com/Kairos-cryptoAI/kairos-text-scouts) — news/X, local ML pre-filter → `SentimentSignal` | LLM, low effort |
+| 2 | [router](https://github.com/Kairos-cryptoAI/kairos-router) — finite-state machine with hysteresis, picks analysis effort | deterministic |
+| 3 | [aggregator](https://github.com/Kairos-cryptoAI/kairos-aggregator) — fuses quant and sentiment into a tactical command | LLM, medium/high |
+| 4 | [macro-strategist](https://github.com/Kairos-cryptoAI/kairos-macro-strategist) — scheduled and shock-triggered allocation | LLM, extra high |
+| 5 | [risk-manager](https://github.com/Kairos-cryptoAI/kairos-risk-manager) — Pydantic validation, leverage and drawdown limits, circuit breaker | deterministic |
+| 6 | [execution-engine](https://github.com/Kairos-cryptoAI/kairos-execution-engine) — atomic async orders, EVEDEX EIP-712 and CCXT, trailing stops | deterministic |
+
+Cost is treated as a first-class constraint: the router is cheap by default and
+escalates to expensive models only when signals conflict, with token accounting
+in the [LLM gateway](https://github.com/Kairos-cryptoAI/kairos-llm). Supporting
+work covers [shared contracts and the message
+bus](https://github.com/Kairos-cryptoAI/kairos-core), [TimescaleDB persistence
+with an audit trail](https://github.com/Kairos-cryptoAI/kairos-persistence),
+[deployment and monitoring](https://github.com/Kairos-cryptoAI/kairos-deploy),
+and a deterministic backtesting framework with walk-forward and counterfactual
+experiment matrices. Decisions are documented as ADRs in the
+[umbrella repository](https://github.com/Kairos-cryptoAI/kairos).
+
+---
+
 ### structured-latent-hypothesis
 
 Kept as a record of a hypothesis that did not survive testing. It started from a
@@ -58,8 +96,6 @@ adaptive routing under context shift.
   watcher and rotator for Telegram Desktop, written in Rust
 - [asm-atoi-exit-code](https://github.com/TheLitis/asm-atoi-exit-code) — x86-64
   Linux assembly, written while learning the instruction set directly
-- Kairos — private research on historical backtesting and counterfactual
-  experiment matrices for trading strategies
 
 ---
 
