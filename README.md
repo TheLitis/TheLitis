@@ -1,152 +1,145 @@
 <div align="center">
 
-## TheLitis
+# TheLitis
 
-**Physics-informed machine learning for geophysical inverse problems**
+### Research-focused developer working across ML systems, GPU computing and scientific machine learning
 
-LLM systems constrained by deterministic guarantees
+I build and test systems where **correctness, measurement and reproducibility matter** — from CUDA memory runtimes and inverse problems to agentic architectures and developer tools.
 
-<sub>Python · C++ · Rust · TypeScript</sub>
+**Current interests:** GPU memory systems · scientific ML · model evaluation · agentic systems · systems programming
 
-**[PIMSR](#pimsr) · [Kairos](#kairos) · [Closed work](#closed-work) · [Contact](#contact)**
+<sub>Python · C++20 · Rust · TypeScript · CUDA · PyTorch</sub>
+
+[Research](#selected-research) · [Engineering](#engineering-work) · [Research approach](#research-approach) · [Contact](#contact)
 
 </div>
 
 ---
 
-## PIMSR
+## Selected research
 
-*Neural inversion of magnetotelluric and gravity data, evaluated against the two
-most-used production MT inversion codes on real USArray stations.*
+### xVRAM — software-managed tiered CUDA memory
 
-> [!IMPORTANT]
-> Wins **all five** Yellowstone profiles against both ModEM NLCG and
-> Occam2DMT v3.0, at roughly **four orders of magnitude** less compute —
-> milliseconds per profile against 5–210 seconds.
+**[xVRAM](https://github.com/TheLitis/xVRAM)** is an experimental runtime for workloads whose total data exceeds physical GPU memory while their active working set can still fit in VRAM.
 
-Shift-invariant 2D-forward data misfit, `section_nrms_2d`, lower is better:
+The project treats system RAM as a backing tier and physical VRAM as a bounded write-back residency tier. Current work includes:
 
-<div align="center">
+- stable CUDA virtual addresses through CUDA VMM;
+- event-safe residency and eviction;
+- bounded pinned staging pools and asynchronous transfers;
+- WDDM-aware live memory budgeting;
+- cost-aware cache policy;
+- a versioned C ABI;
+- library-aware tiled GEMM with cuBLAS/cuBLASLt;
+- deterministic correctness checks and machine-readable benchmark reports.
 
-| Profile | ModEM NLCG | Occam2DMT v3.0 | PIMSR U-Net |
-| :--- | :---: | :---: | :---: |
-| G | 5.32 | 3.92 | **3.59** |
-| H-YS | 5.90 | 4.68 | **4.10** |
-| I | 10.98 | 9.26 | **5.62** |
-| J | 6.28 | 6.40 | **3.49** |
-| K | 6.99 | 6.03 | **4.69** |
-| **mean** | 7.09 | 6.06 | **4.30** |
+The goal is not to pretend that RAM is as fast as VRAM, but to investigate when explicit residency, reuse and scheduling can make otherwise out-of-memory workloads executable.
 
-</div>
+**C++20 · CUDA Driver API · CUDA VMM · cuBLAS/cuBLASLt · CMake**
 
-<details>
-<summary><b>Setup and reproducibility</b></summary>
+---
 
-<br>
+### PIMSR — scientific ML for geophysical inversion
 
-Trained on simulated geology, then evaluated on 27 real USArray/EMTF stations in
-the Yellowstone region (42.5–45.5°N, 108.5–113°W) — no field data in training.
-
-Both baselines were compiled from official sources and driven by scripts inside
-the benchmark repository, so the comparison is reproducible end to end.
-Methodology changes and negative results are recorded in the report, including a
-misfit metric that was retired once it was shown to be an artifact.
-
-</details>
-
-<details>
-<summary><b>Repositories</b></summary>
-
-<br>
+PIMSR is a multi-repository research project on neural inversion of magnetotelluric and gravity observations.
 
 | Repository | Role |
-| :--- | :--- |
-| [pimsr-geogen](https://github.com/TheLitis/pimsr-geogen) | stochastic geology model generator |
-| [pimsr-forward](https://github.com/TheLitis/pimsr-forward) | MT and gravity forward modeling, sensor and noise simulation, dataset builder |
-| [pimsr-inversion](https://github.com/TheLitis/pimsr-inversion) | multi-task neural inversion with uncertainty estimates |
-| [pimsr-benchmarks](https://github.com/TheLitis/pimsr-benchmarks) | comparison against Occam2DMT, ModEM and SimPEG, plus the full report |
+| --- | --- |
+| [pimsr-geogen](https://github.com/TheLitis/pimsr-geogen) | stochastic geological model generation |
+| [pimsr-forward](https://github.com/TheLitis/pimsr-forward) | forward modelling, sensors, noise and dataset generation |
+| [pimsr-inversion](https://github.com/TheLitis/pimsr-inversion) | multi-task neural inversion and uncertainty estimation |
+| [pimsr-benchmarks](https://github.com/TheLitis/pimsr-benchmarks) | reproducible comparisons against classical and research methods |
 
-</details>
+A large part of the project is now about **benchmark validity itself**: separating diagnostic results from publishable claims, pinning implementations and datasets, preventing unequal observation budgets, and rejecting comparisons when the protocol is not strong enough.
 
----
+Earlier Yellowstone headline numbers are retained only as legacy provenance and are **not used as evidence of current superiority**. The current benchmark work is deliberately fail-closed until the physical-geometry and equal-budget protocol is satisfied.
 
-## Kairos
-
-*Architecture, specification and implementation of a seven-layer trading system
-I lead across thirteen repositories in the
-[Kairos-cryptoAI](https://github.com/Kairos-cryptoAI) organisation.*
-
-The design question is how much authority a language model can be given in a
-system where mistakes are irreversible.
-
-> [!IMPORTANT]
-> The answer is enforced structurally rather than by prompt: **the model never
-> touches the exchange and never sees a raw number stream.** It receives compact
-> pre-validated JSON, every critical action passes deterministic risk filters,
-> and a separate engine executes.
-
-<div align="center">
-
-| # | Layer | Control |
-| :---: | :--- | :--- |
-| 1A | [quant-scouts](https://github.com/Kairos-cryptoAI/kairos-quant-scouts) · order book, funding, OI, RSI/MACD | pure math |
-| 1B | [text-scouts](https://github.com/Kairos-cryptoAI/kairos-text-scouts) · news/X with local ML pre-filter | LLM, low |
-| 2 | [router](https://github.com/Kairos-cryptoAI/kairos-router) · state machine with hysteresis, picks effort | deterministic |
-| 3 | [aggregator](https://github.com/Kairos-cryptoAI/kairos-aggregator) · fuses quant and sentiment | LLM, medium/high |
-| 4 | [macro-strategist](https://github.com/Kairos-cryptoAI/kairos-macro-strategist) · allocation, shock-triggered | LLM, extra high |
-| 5 | [risk-manager](https://github.com/Kairos-cryptoAI/kairos-risk-manager) · leverage and drawdown limits, breaker | deterministic |
-| 6 | [execution-engine](https://github.com/Kairos-cryptoAI/kairos-execution-engine) · atomic orders, EIP-712, CCXT | deterministic |
-
-</div>
-
-On failure the system degrades into a local protective mode instead of stopping.
-
-<details>
-<summary><b>Cost control and supporting work</b></summary>
-
-<br>
-
-Cost is a first-class constraint: the router stays cheap by default and
-escalates to expensive models only when signals conflict, with token accounting
-in the [LLM gateway](https://github.com/Kairos-cryptoAI/kairos-llm).
-
-| Repository | Role |
-| :--- | :--- |
-| [kairos](https://github.com/Kairos-cryptoAI/kairos) | umbrella specification and ADRs |
-| [kairos-core](https://github.com/Kairos-cryptoAI/kairos-core) | shared contracts and message bus |
-| [kairos-persistence](https://github.com/Kairos-cryptoAI/kairos-persistence) | TimescaleDB storage with audit trail |
-| [kairos-backtest](https://github.com/Kairos-cryptoAI/kairos-backtest) | walk-forward and counterfactual experiment matrices |
-| [kairos-deploy](https://github.com/Kairos-cryptoAI/kairos-deploy) | deployment and monitoring |
-
-</details>
+**PyTorch · inverse problems · scientific computing · uncertainty · reproducible benchmarking**
 
 ---
 
-## Closed work
+### Structured latent hypothesis — testing and closing a failed claim
 
-*Kept public as a record of a hypothesis that did not survive testing.*
+**[structured-latent-hypothesis](https://github.com/TheLitis/structured-latent-hypothesis)** began with a geometric hypothesis about mixed-difference structure in latent representations.
 
-**[structured-latent-hypothesis](https://github.com/TheLitis/structured-latent-hypothesis)**
-started from a three-point geometric observation and asked whether the resulting
-mixed-difference structure could serve as a machine learning principle. The
-global claim is closed as unsupported: strict affine spacing did not hold, the
-latent prior did not generalise, and commutator routing lost to simpler
-support-validation baselines. The work has since narrowed to support-calibrated
-adaptive routing under context shift.
+The original global claim did not survive stronger baselines. Instead of preserving it, the repository documents why it failed and narrows the active question to:
 
-<details>
-<summary><b>Other repositories</b></summary>
+> **support-calibrated adaptive routing under context shift**
 
-<br>
+The current work asks whether a small target-domain support set can safely choose between structured transfer, fallback adaptation and escalation — and only treats the mechanism as useful if it beats simpler policies under the same calibration and holdout protocol.
 
-- **[Training-Dashboard-Demo](https://github.com/TheLitis/Training-Dashboard-Demo)**
-  — reproducible CIFAR-10 pipeline, config to report, with a baseline/improved ablation
-- **[ProtoSwitch](https://github.com/TheLitis/ProtoSwitch)**
-  — terminal-first proxy watcher and rotator for Telegram Desktop, in Rust
-- **[asm-atoi-exit-code](https://github.com/TheLitis/asm-atoi-exit-code)**
-  — x86-64 Linux assembly, written while learning the instruction set directly
+This project is intentionally kept public as a record of the research process, including negative results and a change of direction.
 
-</details>
+---
+
+### Kairos — constrained agentic architecture
+
+I lead the architecture and implementation of **Kairos**, a multi-repository trading-system project in the [Kairos-cryptoAI](https://github.com/Kairos-cryptoAI) organisation.
+
+The research/engineering question is how much authority an LLM should receive in a system where mistakes can have irreversible consequences.
+
+The architecture therefore separates:
+
+**quantitative signals → routing → aggregation → strategy → deterministic risk control → execution**
+
+Language models operate on compact validated representations, while leverage limits, drawdown protection, circuit breakers and order execution remain deterministic and outside the model's direct control.
+
+The project also explores model-routing cost, backtesting, persistence, auditability and graceful degradation under API failure.
+
+---
+
+## Engineering work
+
+### ProtoSwitch
+
+**[ProtoSwitch](https://github.com/TheLitis/ProtoSwitch)** is a Rust-based proxy watcher and rotator for Telegram Desktop with managed settings integration, TUI/tray interfaces, deterministic end-to-end tests, CI packaging and portable Windows/Linux/macOS builds.
+
+### Training Dashboard Demo
+
+**[Training-Dashboard-Demo](https://github.com/TheLitis/Training-Dashboard-Demo)** is a reproducible PyTorch/CIFAR-10 pipeline built around the full experiment chain:
+
+`config → train → evaluate → metrics → artifacts → report`
+
+It includes baseline/improved runs, checkpoints, plots, reports and automated tests.
+
+### Lower-level and exploratory work
+
+Other repositories include work with:
+
+- x86-64 Linux assembly;
+- PySpark and data processing;
+- Telegram and Discord bots;
+- React/Electron applications;
+- networking utilities;
+- ML experiments and evaluation tooling;
+- game-development prototypes.
+
+---
+
+## Research approach
+
+I use GitHub not only as a code portfolio, but as a **research log**.
+
+A few principles I try to follow:
+
+- **A claim should be falsifiable.** If stronger evidence disproves it, the repository should say so.
+- **Benchmarks are part of the research.** A faster number is meaningless if the comparison is not controlled.
+- **Negative results are useful results.** Failed hypotheses should remain documented when they explain what was learned.
+- **Systems constraints matter.** Memory hierarchy, latency, API failure, numerical behavior and deployment cost are part of the problem, not implementation details to ignore.
+- **Reproducibility beats presentation.** I prefer explicit protocols, machine-readable artifacts and deterministic tests over impressive but hard-to-verify demos.
+
+---
+
+## Technical stack
+
+**Languages**  
+Python · C++ · Rust · TypeScript/JavaScript · SQL · x86-64 Assembly
+
+**ML / Compute**  
+PyTorch · CUDA · cuBLAS/cuBLASLt · NumPy · OpenCV · PySpark
+
+**Systems / Infrastructure**  
+CMake · Docker · GitHub Actions · PostgreSQL · SQLite · Windows · Linux
 
 ---
 
