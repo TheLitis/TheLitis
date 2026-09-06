@@ -147,6 +147,6 @@ CMake · Docker · GitHub Actions · PostgreSQL · SQLite · Windows · Linux
 
 ## Contact
 
-[Telegram](https://t.me/Lindortis) · [Discord](https://discordapp.com/users/the_litis)
+[Telegram](https://t.me/the_litis) · [Discord](https://discordapp.com/users/the_litis)
 
 </div>
